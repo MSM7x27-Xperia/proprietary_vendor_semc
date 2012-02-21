@@ -37,126 +37,129 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/bin/wlan_loader:system/bin/wlan_loader
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    vendor/semc/mimmi/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
-    vendor/semc/mimmi/etc/AutoVolumeControl.txt:system/etc/apns-conf.xml \
-    vendor/semc/mimmi/etc/gps.conf:system/etc/gps.conf \
-    vendor/semc/mimmi/etc/hw_config.sh:system/etc/hw_config.sh \
-    vendor/semc/mimmi/etc/media_profiles.xml:system/etc/sensors.conf \
-    vendor/semc/mimmi/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/mimmi/etc/sysctl.conf:system/etc/sysctl.conf
+    vendor/semc/mimmi/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    vendor/semc/mimmi/proprietary/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
+    vendor/semc/mimmi/proprietary/etc/AutoVolumeControl.txt:system/etc/apns-conf.xml \
+    vendor/semc/mimmi/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/semc/mimmi/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
+    vendor/semc/mimmi/proprietary/etc/media_profiles.xml:system/etc/sensors.conf \
+    vendor/semc/mimmi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
+    vendor/semc/mimmi/proprietary/etc/sysctl.conf:system/etc/sysctl.conf
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
-    vendor/semc/mimmi/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
-    vendor/semc/mimmi/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
-    vendor/semc/mimmi/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
-    vendor/semc/mimmi/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
-    vendor/semc/mimmi/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
-    vendor/semc/mimmi/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
-    vendor/semc/mimmi/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/semc/mimmi/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+    vendor/semc/mimmi/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
+    vendor/semc/mimmi/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
+    vendor/semc/mimmi/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
+    vendor/semc/mimmi/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
+    vendor/semc/mimmi/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
+    vendor/semc/mimmi/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
+    vendor/semc/mimmi/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
+    vendor/semc/mimmi/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/semc/mimmi/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
-    vendor/semc/mimmi/etc/init.d/04modules:system/etc/init.d/04modules \
-    vendor/semc/mimmi/etc/init.d/20userinit:system/etc/init.d/20userinit \
-    vendor/semc/mimmi/etc/init.d/99complete:system/etc/init.d/99complete
+    vendor/semc/mimmi/proprietary/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/semc/mimmi/proprietary/etc/init.d/04modules:system/etc/init.d/04modules \
+    vendor/semc/mimmi/proprietary/etc/init.d/20userinit:system/etc/init.d/20userinit \
+    vendor/semc/mimmi/proprietary/etc/init.d/99complete:system/etc/init.d/99complete
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/etc/semc/chargemon/anim1.rle:system/etc/semc/chargemon/anim1.rle \
-    vendor/semc/mimmi/etc/semc/chargemon/anim2.rle:system/etc/semc/chargemon/anim2.rle \
-    vendor/semc/mimmi/etc/semc/chargemon/anim3.rle:system/etc/semc/chargemon/anim3.rle \
-    vendor/semc/mimmi/etc/semc/chargemon/anim4.rle:system/etc/semc/chargemon/anim4.rle \
-    vendor/semc/mimmi/etc/semc/chargemon/anim5.rle:system/etc/semc/chargemon/anim5.rle \
-    vendor/semc/mimmi/etc/semc/chargemon/anim6.rle:system/etc/semc/chargemon/anim6.rle \
-    vendor/semc/mimmi/etc/semc/chargemon/anim7.rle:system/etc/semc/chargemon/anim7.rle \
-    vendor/semc/mimmi/etc/semc/chargemon/anim8.rle:system/etc/semc/chargemon/anim8.rle
+    vendor/semc/mimmi/proprietary/etc/semc/chargemon/anim1.rle:system/etc/semc/chargemon/anim1.rle \
+    vendor/semc/mimmi/proprietary/etc/semc/chargemon/anim2.rle:system/etc/semc/chargemon/anim2.rle \
+    vendor/semc/mimmi/proprietary/etc/semc/chargemon/anim3.rle:system/etc/semc/chargemon/anim3.rle \
+    vendor/semc/mimmi/proprietary/etc/semc/chargemon/anim4.rle:system/etc/semc/chargemon/anim4.rle \
+    vendor/semc/mimmi/proprietary/etc/semc/chargemon/anim5.rle:system/etc/semc/chargemon/anim5.rle \
+    vendor/semc/mimmi/proprietary/etc/semc/chargemon/anim6.rle:system/etc/semc/chargemon/anim6.rle \
+    vendor/semc/mimmi/proprietary/etc/semc/chargemon/anim7.rle:system/etc/semc/chargemon/anim7.rle \
+    vendor/semc/mimmi/proprietary/etc/semc/chargemon/anim8.rle:system/etc/semc/chargemon/anim8.rle
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/etc/wifi/dnsmasq.conf:system/etc/wifi/dnsmasq.conf \
-    vendor/semc/mimmi/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-    vendor/semc/mimmi/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin
+    vendor/semc/mimmi/proprietary/etc/wifi/dnsmasq.conf:system/etc/wifi/dnsmasq.conf \
+    vendor/semc/mimmi/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
+    vendor/semc/mimmi/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/lib/libaudioeq.so:system/lib/libaudioeq.so \
-    vendor/semc/mimmi/lib/libauth.so:system/lib/libauth.so \
-    vendor/semc/mimmi/lib/libcm.so:system/lib/libcm.so \
-    vendor/semc/mimmi/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/semc/mimmi/lib/libdll.so:system/lib/libdll.so \
-    vendor/semc/mimmi/lib/libdsm.so:system/lib/libdsm.so \
-    vendor/semc/mimmi/lib/libdss.so:system/lib/libdss.so \
-    vendor/semc/mimmi/lib/libFLAC.so:system/lib/libFLAC.so \
-    vendor/semc/mimmi/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
-    vendor/semc/mimmi/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/semc/mimmi/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
-    vendor/semc/mimmi/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/semc/mimmi/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/mimmi/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/semc/mimmi/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
-    vendor/semc/mimmi/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/mimmi/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/semc/mimmi/lib/libnv.so:system/lib/libnv.so \
-    vendor/semc/mimmi/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
-    vendor/semc/mimmi/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-    vendor/semc/mimmi/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-    vendor/semc/mimmi/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
-    vendor/semc/mimmi/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-    vendor/semc/mimmi/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-    vendor/semc/mimmi/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-    vendor/semc/mimmi/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-    vendor/semc/mimmi/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-    vendor/semc/mimmi/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
-    vendor/semc/mimmi/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
-    vendor/semc/mimmi/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
-    vendor/semc/mimmi/lib/libOmxQcelp13Enc:system/lib/libOmxQcelp13Enc \
-    vendor/semc/mimmi/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
-    vendor/semc/mimmi/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-    vendor/semc/mimmi/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/semc/mimmi/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/semc/mimmi/lib/liboncrpc.so:system/lib/liboncrpc.so \
-    vendor/semc/mimmi/lib/libopencore_common.so:system/lib/libopencore_common.so \
-    vendor/semc/mimmi/lib/libpbmlib.so:system/lib/libpbmlib.so \
-    vendor/semc/mimmi/lib/libQcomUI.so:system/lib/libQcomUI.so \
-    vendor/semc/mimmi/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/semc/mimmi/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/mimmi/lib/libril.so:system/lib/libril.so \
-    vendor/semc/mimmi/lib/librpc.so:system/lib/librpc.so \
-    vendor/semc/mimmi/lib/libsemc_ril.so:system/lib/libsemc_ril.so \
-    vendor/semc/mimmi/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-    vendor/semc/mimmi/lib/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so \
-    vendor/semc/mimmi/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/mimmi/lib/libwms.so:system/lib/libwms.so \
-    vendor/semc/mimmi/lib/libwmsts.so:system/lib/libwmsts.so
+    vendor/semc/mimmi/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
+    vendor/semc/mimmi/proprietary/lib/libauth.so:system/lib/libauth.so \
+    vendor/semc/mimmi/proprietary/lib/libcm.so:system/lib/libcm.so \
+    vendor/semc/mimmi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/semc/mimmi/proprietary/lib/libdll.so:system/lib/libdll.so \
+    vendor/semc/mimmi/proprietary/lib/libdsm.so:system/lib/libdsm.so \
+    vendor/semc/mimmi/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/semc/mimmi/proprietary/lib/libFLAC.so:system/lib/libFLAC.so \
+    vendor/semc/mimmi/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
+    vendor/semc/mimmi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/semc/mimmi/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/semc/mimmi/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/semc/mimmi/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/mimmi/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+    vendor/semc/mimmi/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/semc/mimmi/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/semc/mimmi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/mimmi/proprietary/lib/libnv.so:system/lib/libnv.so \
+    vendor/semc/mimmi/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+    vendor/semc/mimmi/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
+    vendor/semc/mimmi/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
+    vendor/semc/mimmi/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/semc/mimmi/proprietary/lib/libQcomUI.so:system/lib/libQcomUI.so \
+    vendor/semc/mimmi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/semc/mimmi/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+    vendor/semc/mimmi/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/semc/mimmi/proprietary/lib/librpc.so:system/lib/librpc.so \
+    vendor/semc/mimmi/proprietary/lib/libsemc_ril.so:system/lib/libsemc_ril.so \
+    vendor/semc/mimmi/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
+    vendor/semc/mimmi/proprietary/lib/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so \
+    vendor/semc/mimmi/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/mimmi/proprietary/lib/libwms.so:system/lib/libwms.so \
+    vendor/semc/mimmi/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
+    vendor/semc/mimmi/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
+    vendor/semc/mimmi/proprietary/lib/libwmsts.so:system/lib/libwmsts.so
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/semc/mimmi/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/semc/mimmi/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/mimmi/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
+    vendor/semc/mimmi/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/semc/mimmi/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/semc/mimmi/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/mimmi/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/lib/hw/audio.primary.delta.so:system/lib/hw/audio.primary.delta.so \
-    vendor/semc/mimmi/lib/hw/audio_policy.delta.so:system/lib/hw/audio_policy.delta.so \
-    vendor/semc/mimmi/lib/hw/copybit.delta.so:system/lib/hw/copybit.delta.so \
-    vendor/semc/mimmi/lib/hw/gps.delta.so:system/lib/hw/gps.delta.so \
-    vendor/semc/mimmi/lib/hw/gralloc.delta.so:system/lib/hw/gralloc.delta.so \
-    vendor/semc/mimmi/lib/hw/hal_seport.default.so:system/lib/hw/hal_seport.default.so \
-    vendor/semc/mimmi/lib/hw/lights.delta.so:system/lib/hw/lights.delta.so \
-    vendor/semc/mimmi/lib/hw/sensors.delta.so:system/lib/hw/sensors.delta.so
+    vendor/semc/mimmi/proprietary/lib/hw/audio.primary.reserv.so:system/lib/hw/audio.primary.reserv.so \
+    vendor/semc/mimmi/proprietary/lib/hw/audio_policy.reserv.so:system/lib/hw/audio_policy.reserv.so \
+    vendor/semc/mimmi/proprietary/lib/hw/copybit.reserv.so:system/lib/hw/copybit.delta.so \
+    vendor/semc/mimmi/proprietary/lib/hw/gps.delta.so:system/lib/hw/gps.delta.so \
+    vendor/semc/mimmi/proprietary/lib/hw/gralloc.delta.so:system/lib/hw/gralloc.delta.so \
+    vendor/semc/mimmi/proprietary/lib/hw/hal_seport.default.so:system/lib/hw/hal_seport.default.so \
+    vendor/semc/mimmi/proprietary/lib/hw/lights.delta.so:system/lib/hw/lights.delta.so \
+    vendor/semc/mimmi/proprietary/lib/hw/hwcomposer.msm7x27.so:system/lib/hw/hwcomposer.msm7x27.so \
+    vendor/semc/mimmi/proprietary/lib/hw/sensors.delta.so:system/lib/hw/sensors.delta.so
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/lib/libsystemconnector/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so
+    vendor/semc/mimmi/proprietary/lib/libsystemconnector/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/semc/mimmi/proprietary/media/bootanimation.zip:system/media/bootanimation.zip
 	
 PRODUCT_COPY_FILES += \
-    vendor/semc/mimmi/usr/idc/cy8ctma300_ser.idc:system/usr/idc/cy8ctma300_ser.idc \
-    vendor/semc/mimmi/usr/idc/mimmi_keypad.idc:system/usr/idc/mimmi_keypad.idc \
-    vendor/semc/mimmi/usr/keychars/mimmi_keypad.kcm:system/usr/keychars/mimmi_keypad.kcm \
-    vendor/semc/mimmi/usr/keychars/systemconnector.kcm.bin:system/usr/keychars/systemconnector.kcm.bin \
-    vendor/semc/mimmi/usr/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
-    vendor/semc/mimmi/usr/keylayout/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
-    vendor/semc/mimmi/usr/keylayout/mimmi_keypad.kl:system/usr/keylayout/mimmi_keypad.kl \
-    vendor/semc/mimmi/usr/keylayout/systemconnector.kl:system/usr/keylayout/systemconnector.kl
+    vendor/semc/mimmi/proprietary/usr/idc/cy8ctma300_ser.idc:system/usr/idc/cy8ctma300_ser.idc \
+    vendor/semc/mimmi/proprietary/usr/idc/mimmi_keypad.idc:system/usr/idc/mimmi_keypad.idc \
+    vendor/semc/mimmi/proprietary/usr/keychars/mimmi_keypad.kcm:system/usr/keychars/mimmi_keypad.kcm \
+    vendor/semc/mimmi/proprietary/usr/keychars/systemconnector.kcm.bin:system/usr/keychars/systemconnector.kcm.bin \
+    vendor/semc/mimmi/proprietary/usr/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
+    vendor/semc/mimmi/proprietary/usr/keylayout/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
+    vendor/semc/mimmi/proprietary/usr/keylayout/mimmi_keypad.kl:system/usr/keylayout/mimmi_keypad.kl \
+    vendor/semc/mimmi/proprietary/usr/keylayout/systemconnector.kl:system/usr/keylayout/systemconnector.kl
