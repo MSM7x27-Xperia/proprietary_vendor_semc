@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/etc/AutoVolumeControl.txt:system/etc/apns-conf.xml \
     vendor/semc/mimmi/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/semc/mimmi/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
-    vendor/semc/mimmi/proprietary/etc/media_profiles.xml:system/etc/sensors.conf \
+    vendor/semc/mimmi/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/semc/mimmi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/mimmi/proprietary/etc/sysctl.conf:system/etc/sysctl.conf
 	
