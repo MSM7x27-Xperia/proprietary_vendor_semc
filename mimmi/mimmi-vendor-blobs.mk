@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/mimmi/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/semc/mimmi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/semc/mimmi/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/semc/mimmi/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/semc/mimmi/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
     vendor/semc/mimmi/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
