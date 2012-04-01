@@ -17,31 +17,26 @@
 # Prebuilt libraries that are needed to build open-source libraries
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/robyn/proprietary/app/FileManager.apk:system/app/FileManager.apk \
-    vendor/semc/robyn/proprietary/app/SystemConnector.apk:system/app/SystemConnector.apk \
+    vendor/semc/robyn/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/robyn/proprietary/app/Torch.apk:system/app/Torch.apk \
     vendor/semc/robyn/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/robyn/proprietary/bin/hciattach:system/bin/hciattach \
-    vendor/semc/robyn/proprietary/bin/inputattach:system/bin/inputattach \
     vendor/semc/robyn/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/robyn/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/robyn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/semc/robyn/proprietary/bin/semc_chargalg:system/bin/semc_chargalg \
     vendor/semc/robyn/proprietary/bin/slidercounter:system/bin/slidercounter \
     vendor/semc/robyn/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/semc/robyn/proprietary/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
-    vendor/semc/robyn/proprietary/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
-    vendor/semc/robyn/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
-    vendor/semc/robyn/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
-    vendor/semc/robyn/proprietary/etc/sensors.conf:system/etc/sensors.conf \
+    vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
+    vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/robyn/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
     vendor/semc/robyn/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
     vendor/semc/robyn/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
     vendor/semc/robyn/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
-    vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
-    vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/robyn/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
     vendor/semc/robyn/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/robyn/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/semc/robyn/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim1.rle:system/etc/semc/chargemon/anim1.rle \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim2.rle:system/etc/semc/chargemon/anim2.rle \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim3.rle:system/etc/semc/chargemon/anim3.rle \
@@ -50,12 +45,21 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim6.rle:system/etc/semc/chargemon/anim6.rle \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim7.rle:system/etc/semc/chargemon/anim7.rle \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim8.rle:system/etc/semc/chargemon/anim8.rle \
-    vendor/semc/robyn/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
-    vendor/semc/robyn/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-    vendor/semc/robyn/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
-    vendor/semc/robyn/proprietary/etc/wifi/softap/hostapd.conf:system/etc/wifi/softap/hostapd.conf \
-    vendor/semc/robyn/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
+    vendor/semc/robyn/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
+    vendor/semc/robyn/proprietary/etc/sensors.conf:system/etc/sensors.conf \
+    vendor/semc/robyn/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+    vendor/semc/robyn/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/semc/robyn/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/semc/robyn/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/semc/robyn/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/semc/robyn/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/robyn/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/semc/robyn/proprietary/lib/hw/lights.robyn.so:system/lib/hw/lights.robyn.so \
+    vendor/semc/robyn/proprietary/lib/hw/sensors.delta.so:system/lib/hw/sensors.delta.so \
+    vendor/semc/robyn/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/robyn/proprietary/lib/libauth.so:system/lib/libauth.so \
+    vendor/semc/robyn/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/semc/robyn/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/semc/robyn/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/robyn/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/semc/robyn/proprietary/lib/libdll.so:system/lib/libdll.so \
@@ -70,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/semc/robyn/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/robyn/proprietary/lib/libnv.so:system/lib/libnv.so \
+    vendor/semc/robyn/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/robyn/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/semc/robyn/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/semc/robyn/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
@@ -84,29 +89,24 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/semc/robyn/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/semc/robyn/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
-    vendor/semc/robyn/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/semc/robyn/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/semc/robyn/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/semc/robyn/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/semc/robyn/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
+    vendor/semc/robyn/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/robyn/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/semc/robyn/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/robyn/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+    vendor/semc/robyn/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/semc/robyn/proprietary/lib/librpc.so:system/lib/librpc.so \
+    vendor/semc/robyn/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/semc/robyn/proprietary/lib/libsemc_ril.so:system/lib/libsemc_ril.so \
-    vendor/semc/robyn/proprietary/lib/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so \
     vendor/semc/robyn/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/robyn/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/robyn/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/robyn/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/semc/robyn/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/semc/robyn/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/robyn/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/semc/robyn/proprietary/lib/hw/hal_seport.default.so:system/lib/hw/hal_seport.default.so \
-    vendor/semc/robyn/proprietary/lib/hw/lights.delta.so:system/lib/hw/lights.delta.so \
-    vendor/semc/robyn/proprietary/lib/hw/sensors.delta.so:system/lib/hw/sensors.delta.so \
-    vendor/semc/robyn/proprietary/lib/libsystemconnector/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
-    vendor/semc/robyn/proprietary/usr/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
+    vendor/semc/robyn/proprietary/usr/idc/synaptics-rmi-touchscreen.idc.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
     vendor/semc/robyn/proprietary/usr/keychars/robyn_keypad.kcm.bin:system/usr/keychars/robyn_keypad.kcm.bin \
-    vendor/semc/robyn/proprietary/usr/keychars/systemconnector.kcm.bin:system/usr/keychars/systemconnector.kcm.bin \
-    vendor/semc/robyn/proprietary/usr/keylayout/robyn_keypad.kl:system/usr/keylayout/robyn_keypad.kl \
-    vendor/semc/robyn/proprietary/usr/keylayout/systemconnector.kl:system/usr/keylayout/systemconnector.kl
+    vendor/semc/robyn/proprietary/usr/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
+    vendor/semc/robyn/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    vendor/semc/robyn/proprietary/usr/keylayout/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
+    vendor/semc/robyn/proprietary/usr/keylayout/robyn_keypad.kl:system/usr/keylayout/robyn_keypad.kl

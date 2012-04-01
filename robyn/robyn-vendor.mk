@@ -21,4 +21,5 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/semc/robyn/overlay
 
+# Call vendor blobs
 $(call inherit-product, vendor/semc/robyn/robyn-vendor-blobs.mk)
