@@ -18,6 +18,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/robyn/proprietary/app/GooManager.apk:system/app/GooManager.apk \
     vendor/semc/robyn/proprietary/app/Torch.apk:system/app/Torch.apk \
     vendor/semc/robyn/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/robyn/proprietary/bin/hciattach:system/bin/hciattach \
@@ -25,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/robyn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/semc/robyn/proprietary/bin/semc_chargalg:system/bin/semc_chargalg \
-    vendor/semc/robyn/proprietary/bin/slidercounter:system/bin/slidercounter \
     vendor/semc/robyn/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
     vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
     vendor/semc/robyn/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/semc/robyn/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/robyn/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/semc/robyn/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/semc/robyn/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/robyn/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
@@ -104,7 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/robyn/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/robyn/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/robyn/proprietary/usr/idc/synaptics-rmi-touchscreen.idc.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
+    vendor/semc/robyn/proprietary/usr/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
     vendor/semc/robyn/proprietary/usr/keychars/robyn_keypad.kcm.bin:system/usr/keychars/robyn_keypad.kcm.bin \
     vendor/semc/robyn/proprietary/usr/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
     vendor/semc/robyn/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
