@@ -18,7 +18,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/robyn/proprietary/app/GooManager.apk:system/app/GooManager.apk \
     vendor/semc/robyn/proprietary/app/Torch.apk:system/app/Torch.apk \
     vendor/semc/robyn/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/robyn/proprietary/bin/hciattach:system/bin/hciattach \

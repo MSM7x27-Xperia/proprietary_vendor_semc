@@ -18,7 +18,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/mimmi/proprietary/app/GooManager.apk:system/app/GooManager.apk \
     vendor/semc/mimmi/proprietary/app/Torch.apk:system/app/Torch.apk \
     vendor/semc/mimmi/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/mimmi/proprietary/bin/hciattach:system/bin/hciattach \

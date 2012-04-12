@@ -18,7 +18,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/shakira/proprietary/app/GooManager.apk:system/app/GooManager.apk \
     vendor/semc/shakira/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/shakira/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/shakira/proprietary/bin/nvimport:system/bin/nvimport \
