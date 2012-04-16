@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/robyn/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
     vendor/semc/robyn/proprietary/app/Torch.apk:system/app/Torch.apk \
     vendor/semc/robyn/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/robyn/proprietary/bin/hciattach:system/bin/hciattach \
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
     vendor/semc/robyn/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/robyn/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/robyn/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim1.rle:system/etc/semc/chargemon/anim1.rle \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim2.rle:system/etc/semc/chargemon/anim2.rle \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim3.rle:system/etc/semc/chargemon/anim3.rle \
@@ -46,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/etc/semc/chargemon/anim8.rle:system/etc/semc/chargemon/anim8.rle \
     vendor/semc/robyn/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
     vendor/semc/robyn/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/robyn/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
     vendor/semc/robyn/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/robyn/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/robyn/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
@@ -55,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/robyn/proprietary/lib/hw/lights.robyn.so:system/lib/hw/lights.robyn.so \
     vendor/semc/robyn/proprietary/lib/hw/sensors.delta.so:system/lib/hw/sensors.delta.so \
-    vendor/semc/robyn/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/robyn/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/robyn/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/robyn/proprietary/lib/libcamera.so:system/lib/libcamera.so \

@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/shakira/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
     vendor/semc/shakira/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/shakira/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/shakira/proprietary/bin/nvimport:system/bin/nvimport \
@@ -34,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
     vendor/semc/shakira/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/shakira/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/shakira/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/semc/shakira/proprietary/etc/semc/chargemon/anim1.rle:system/etc/semc/chargemon/anim1.rle \
     vendor/semc/shakira/proprietary/etc/semc/chargemon/anim2.rle:system/etc/semc/chargemon/anim2.rle \
     vendor/semc/shakira/proprietary/etc/semc/chargemon/anim3.rle:system/etc/semc/chargemon/anim3.rle \
@@ -45,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/etc/semc/chargemon/anim8.rle:system/etc/semc/chargemon/anim8.rle \
     vendor/semc/shakira/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
     vendor/semc/shakira/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/shakira/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
     vendor/semc/shakira/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/shakira/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/shakira/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
@@ -54,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/shakira/proprietary/lib/hw/lights.shakira.so:system/lib/hw/lights.shakira.so \
     vendor/semc/shakira/proprietary/lib/hw/sensors.delta.so:system/lib/hw/sensors.delta.so \
-    vendor/semc/shakira/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/shakira/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/shakira/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/shakira/proprietary/lib/libcamera.so:system/lib/libcamera.so \
