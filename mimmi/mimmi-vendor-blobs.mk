@@ -19,6 +19,7 @@
 PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/app/Torch.apk:system/app/Torch.apk \
     vendor/semc/mimmi/proprietary/bin/akmd2:system/bin/akmd2 \
+    vendor/semc/mimmi/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/mimmi/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/mimmi/proprietary/bin/inputattach:system/bin/inputattach \
     vendor/semc/mimmi/proprietary/bin/nvimport:system/bin/nvimport \
@@ -70,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
     vendor/semc/mimmi/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/semc/mimmi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/mimmi/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/semc/mimmi/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/semc/mimmi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/mimmi/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
@@ -86,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/semc/mimmi/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/semc/mimmi/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
+    vendor/semc/mimmi/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/semc/mimmi/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/semc/mimmi/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/semc/mimmi/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
