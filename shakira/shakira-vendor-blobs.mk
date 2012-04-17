@@ -18,6 +18,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/bin/akmd2:system/bin/akmd2 \
+    vendor/semc/shakira/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/shakira/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/shakira/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/shakira/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -84,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/semc/shakira/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/semc/shakira/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
+    vendor/semc/shakira/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/semc/shakira/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/semc/shakira/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/semc/shakira/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \

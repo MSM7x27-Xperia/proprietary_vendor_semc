@@ -19,11 +19,14 @@
 PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/app/Torch.apk:system/app/Torch.apk \
     vendor/semc/robyn/proprietary/bin/akmd2:system/bin/akmd2 \
+    vendor/semc/robyn/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/robyn/proprietary/bin/hciattach:system/bin/hciattach \
+    vendor/semc/robyn/proprietary/bin/inputattach:system/bin/inputattach \
     vendor/semc/robyn/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/robyn/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/robyn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/semc/robyn/proprietary/bin/semc_chargalg:system/bin/semc_chargalg \
+    vendor/semc/robyn/proprietary/bin/slidercounter:system/bin/slidercounter \
     vendor/semc/robyn/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
     vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
@@ -85,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/semc/robyn/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/semc/robyn/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
+    vendor/semc/robyn/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/semc/robyn/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/semc/robyn/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/semc/robyn/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
